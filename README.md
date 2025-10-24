@@ -3,5 +3,5 @@
 ## FP20 Analytics Challenge 31
 **Author**: Jonathan Audu Egbe
 
-## Report Link [Power BI](https://bit.ly/HealthCareReport) 
+## [Report Link](https://bit.ly/HealthCareReport) 
 
