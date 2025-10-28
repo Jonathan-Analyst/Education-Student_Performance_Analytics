@@ -126,8 +126,8 @@ DIVIDE(
 ✅ Supported data-driven academic planning decisions
 
 ## 🖼️ Dashboard Previews
-Page	Description
-Demographics Dashboard	Overview of population, nationality, and level distribution
+Page	                      Description
+Demographics Dashboard      	Overview of population, nationality, and level distribution
 Key Trends Dashboard	Score trends, enrollment growth, and pass/fail analysis
 Performance Dashboard	Deep dive into student and teacher-level performance
 
