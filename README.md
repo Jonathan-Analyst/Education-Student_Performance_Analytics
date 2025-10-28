@@ -78,13 +78,10 @@ The power BI report consist of three **interactive pages**. It's designed using 
 - What are each student’s strengths by department?
 
 ## Tools & Technologies
-Power BI Desktop – Dashboard design & DAX modeling
-
-Microsoft Excel – Data source for dimensions and fact tables
-
-DAX – Calculated measures for KPIs
-
-Star Schema – Optimized data modeling
+- Power BI Desktop – Dashboard design & DAX modeling
+- Microsoft Excel – Data source for dimensions and fact tables
+- DAX – Calculated measures for KPIs
+- Star Schema – Optimized data modeling
 
 
 
