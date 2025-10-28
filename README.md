@@ -131,4 +131,4 @@ Demographics Dashboard	Overview of population, nationality, and level distributi
 Key Trends Dashboard	Score trends, enrollment growth, and pass/fail analysis
 Performance Dashboard	Deep dive into student and teacher-level performance
 
-[![Dashboard 1](https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis/blob/main/picture1.png)](https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis/blob/main/picture1.png)
+[![Dashboard 1](https://github.com/Jonathan-Analyst/Education-Student_Performance_Analytics/blob/main/Jonathan_FP20_Zoomchart_Analytics_Challenge_31_DB.png)](https://github.com/Jonathan-Analyst/Education-Student_Performance_Analytics/blob/main/Jonathan_FP20_Zoomchart_Analytics_Challenge_31_DB.png)
