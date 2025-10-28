@@ -111,10 +111,12 @@ DIVIDE(
 )
 ```
 ## Tools & Technologies
-- Power BI Desktop – Dashboard design & DAX modeling
-- Microsoft Excel – Data source for dimensions and fact tables
-- DAX – Calculated measures for KPIs
-- Star Schema – Optimized data modeling
+- **Power BI Desktop** – Dashboard design & DAX modeling
+- **ZoomCharts Drill Down PRO Visuals**: Donut, Timeline, Combo & Map
+- **Microsoft Excel** – Data source for dimensions and fact tables
+- **DAX** – Calculated measures for KPIs
+- **Star Schema** – Optimized data modeling
+- **PowerPoint**- Used for dashboard design
 
 
 
