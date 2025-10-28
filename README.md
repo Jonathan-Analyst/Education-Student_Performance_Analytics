@@ -34,8 +34,83 @@ The power BI report consist of three **interactive pages**. It's designed using 
 | **Pass Rate** | % of students scoring above the passing threshold |
 | **Enrollment Growth Rate (YoY)** | Year-over-year change in student enrollment |
 
+## 📋 Dashboard Pages
 
+### 1️⃣ Demographics Dashboard
+**Purpose:** Understand the student population, diversity, and class size balance.  
 
+**Key Visuals:**
+- KPI cards for Total Students, Teachers, Ratio, and Average Age  
+- Map visualization showing students by nationality  
+- Donut chart showing level distribution  
+- Departmental score comparison by gender  
+
+**Analysis Questions:**
+- Which departments or levels have the highest student population?  
+- How balanced is the student–teacher ratio?  
+- What is the demographic distribution of students by nationality?
+
+### 2️⃣ Key Trends Dashboard
+**Purpose:** Track academic performance trends and yearly growth.  
+
+**Key Visuals:**
+- Line chart of average score by assessment type  
+- Matrix of monthly/weekly score breakdowns  
+- Column chart of weighted average scores by year  
+
+**Analysis Questions:**
+- How are scores trending across semesters and years?  
+- Which assessment types yield higher performance?  
+- What’s the YoY enrollment growth rate?
+
+### 3️⃣ Performance Dashboard
+**Purpose:** Evaluate student and teacher-level performance.  
+
+**Key Visuals:**
+- Donut chart: Average Weighted Score by Teachers  
+- Top 3 Students by Average Score (Bar Chart)  
+- Individual Student Card (Profile + KPIs)  
+- Departmental Performance Table (Weighted Score, Avg, Grade)
+
+**Analysis Questions:**
+- Which teachers drive higher student performance?  
+- Who are the top-performing students overall?  
+- What are each student’s strengths by department?
+
+## 🧠 Key DAX Measures
+
+```DAX
+-- Weighted Score
+Weighted Score =
+SUMX(
+    FactPerformance,
+    FactPerformance[Score] * RELATED(DimSubject[CreditUnit])
+)
+
+-- Average Weighted Score
+Average Weighted Score =
+DIVIDE(
+    [Weighted Score],
+    SUMX(FactPerformance, RELATED(DimSubject[CreditUnit])),
+    0
+)
+
+-- Pass Rate
+Pass Rate =
+DIVIDE(
+    CALCULATE(COUNTROWS(FactPerformance), FactPerformance[Score] >= 50),
+    COUNTROWS(FactPerformance),
+    0
+)
+
+-- Student–Teacher Ratio
+Student Teacher Ratio =
+DIVIDE(
+    COUNT(DimStudents[StudentID]),
+    COUNT(DimTeachers[TeacherID])
+)
+
+## Tools & Technologies
 
 
 
