@@ -77,40 +77,14 @@ The power BI report consist of three **interactive pages**. It's designed using 
 - Who are the top-performing students overall?  
 - What are each student’s strengths by department?
 
-## 🧠 Key DAX Measures
-
-```DAX
--- Weighted Score
-Weighted Score =
-SUMX(
-    FactPerformance,
-    FactPerformance[Score] * RELATED(DimSubject[CreditUnit])
-)
-
--- Average Weighted Score
-Average Weighted Score =
-DIVIDE(
-    [Weighted Score],
-    SUMX(FactPerformance, RELATED(DimSubject[CreditUnit])),
-    0
-)
-
--- Pass Rate
-Pass Rate =
-DIVIDE(
-    CALCULATE(COUNTROWS(FactPerformance), FactPerformance[Score] >= 50),
-    COUNTROWS(FactPerformance),
-    0
-)
-
--- Student–Teacher Ratio
-Student Teacher Ratio =
-DIVIDE(
-    COUNT(DimStudents[StudentID]),
-    COUNT(DimTeachers[TeacherID])
-)
-
 ## Tools & Technologies
+Power BI Desktop – Dashboard design & DAX modeling
+
+Microsoft Excel – Data source for dimensions and fact tables
+
+DAX – Calculated measures for KPIs
+
+Star Schema – Optimized data modeling
 
 
 
