@@ -118,5 +118,17 @@ DIVIDE(
 - **Star Schema** – Optimized data modeling
 - **PowerPoint**- Used for dashboard design
 
+## 🧾 Key Insights
 
+✅ Identified top-performing teachers based on student outcomes
+✅ Evaluated student performance trends and subject impact
+✅ Provided visibility into student demographics and diversity
+✅ Supported data-driven academic planning decisions
 
+## 🖼️ Dashboard Previews
+Page	Description
+Demographics Dashboard	Overview of population, nationality, and level distribution
+Key Trends Dashboard	Score trends, enrollment growth, and pass/fail analysis
+Performance Dashboard	Deep dive into student and teacher-level performance
+
+[![Dashboard 1](https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis/blob/main/picture1.png)](https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis/blob/main/picture1.png)
