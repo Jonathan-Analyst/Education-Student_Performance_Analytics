@@ -125,10 +125,11 @@ DIVIDE(
 ✅ Provided visibility into student demographics and diversity
 ✅ Supported data-driven academic planning decisions
 
-## 🖼️ Dashboard Previews
-Page	                      Description
-Demographics Dashboard      	Overview of population, nationality, and level distribution
-Key Trends Dashboard	Score trends, enrollment growth, and pass/fail analysis
-Performance Dashboard	Deep dive into student and teacher-level performance
+| 🖼️ **Dashboard Page** | **Description** |
+|------------------------|-----------------|
+| **Demographics Dashboard** | Overview of population, nationality, and level distribution |
+| **Key Trends Dashboard** | Score trends, enrollment growth, and pass/fail analysis |
+| **Performance Dashboard** | Deep dive into student and teacher-level performance |
+
 
 [![Dashboard 1](https://github.com/Jonathan-Analyst/Education-Student_Performance_Analytics/blob/main/Jonathan_FP20_Zoomchart_Analytics_Challenge_31_DB.png)](https://github.com/Jonathan-Analyst/Education-Student_Performance_Analytics/blob/main/Jonathan_FP20_Zoomchart_Analytics_Challenge_31_DB.png)
