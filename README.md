@@ -109,7 +109,7 @@ DIVIDE(
     COUNT(DimStudents[StudentID]),
     COUNT(DimTeachers[TeacherID])
 )
-
+```
 ## Tools & Technologies
 - Power BI Desktop – Dashboard design & DAX modeling
 - Microsoft Excel – Data source for dimensions and fact tables
