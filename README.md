@@ -119,11 +119,8 @@ DIVIDE(
 - **PowerPoint**- Used for dashboard design
 
 ## 🧾 Key Insights
-
 -✅ Identified top-performing teachers based on student outcomes
--✅ Evaluated student performance trends and subject impact
--✅ Provided visibility into student demographics and diversity
--✅ Supported data-driven academic planning decisions
+
 
 | 🖼️ **Dashboard Page** | **Description** |
 |------------------------|-----------------|
